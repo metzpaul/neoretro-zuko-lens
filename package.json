@@ -1,0 +1,16 @@
+{
+  "name": "neoretro-zuko-lens",
+  "version": "0.1.0",
+  "description": "A neoretro web renderer that lets classic browsers browse modern sites through server-side screenshots, sliced JPEGs, frames, and imagemaps.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "keywords": ["neoretro", "classic-computing", "powerbook", "netscape", "browser", "proxy", "playwright"],
+  "author": "hermezuko",
+  "license": "CC0-1.0",
+  "dependencies": {"express": "^4.19.2", "playwright": "^1.44.0"},
+  "engines": {"node": ">=18"}
+}
